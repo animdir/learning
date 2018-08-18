@@ -9,10 +9,38 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var buttoncount = 0
 
+    @IBOutlet weak var mylabel: UILabel!
+    
+    
+    
+    @IBAction func SecondBtn(_ sender: Any) {
+        
+     
+        buttoncount = buttoncount + 1
+        
+        print(buttoncount)
+        
+        if buttoncount >= 10 {
+            view.backgroundColor = UIColor.red
+            mylabel.text = "Mike's Label"
+        }
+    }
+    
+    
+    
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
+        
+       
+        
     }
 
     override func didReceiveMemoryWarning() {
