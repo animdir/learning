@@ -4,7 +4,7 @@
 //
 //  Created by Michael Hand on 8/17/18.
 //  Copyright © 2018 Michael Hand. All rights reserved.
-//
+// Adding a new comment
 
 import UIKit
 
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         if buttoncount >= 10 {
             view.backgroundColor = UIColor.red
-            mylabel.text = "Mike's Label"
+            mylabel.text = "Mike's is Cool!!"
         }
     }
     
